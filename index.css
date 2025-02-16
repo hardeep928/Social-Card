@@ -1,0 +1,90 @@
+body {
+  background-color: #141414;
+}
+
+.card {
+  position: fixed;
+  margin: auto;
+  inset: 0;
+  background-color: #1f1f1f;
+  height: 550px;
+  width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5.8%;
+}
+
+.profile {
+  background-color: red;
+  height: 70px;
+  border-radius: 50%;
+  margin-left: 118.2px;
+  overflow: hidden;
+  width: 70px;
+  margin-top: 9.4px;
+}
+
+#profilepic {
+  height: 223.2px;
+  border-radius: 50%;
+  margin-left: -64.6px;
+  margin-top: -5.2px;
+}
+
+#name {
+  color: white;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 19.8px;
+  margin-left: 70.4px;
+  margin-top: 24.4px;
+}
+
+#location {
+  color: #b9f50b;
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 15.4px;
+  margin-left: 81.6px;
+  margin-top: -9px;
+}
+
+#details {
+  color: white;
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 15px;
+  margin-left: 78px;
+  margin-top: 23px;
+}
+
+.buttons {
+  display: grid;
+  gap: 27px;
+  margin-top: 30px;
+}
+
+#Github,
+#LinkedIn,
+#Twitter,
+#Instagram {
+  min-width: 230px;
+  height: 48px;
+  margin-left: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#Github:hover,
+#LinkedIn:hover,
+#Twitter:hover,
+#Instagram:hover {
+  background-color: #b9f50b;
+}
+
+/*Giving width to 0 for anchor tag resolving the link clickable area problem*/
+a {
+  width: 0;
+}

@@ -88,3 +88,11 @@ body {
 a {
   width: 0;
 }
+
+@media screen and (max-width: 768px) {
+  #name,
+  #location,
+  #details {
+    margin-left: 1rem; /* Smaller margin for mobile */
+  }
+}

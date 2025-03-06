@@ -1,5 +1,6 @@
 body {
   background-color: #141414;
+  margin: 0;
 }
 
 .card {
@@ -7,14 +8,13 @@ body {
   margin: auto;
   inset: 0;
   background-color: #1f1f1f;
-  height: 550px;
+  height: 600px;
   width: 300px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 5.8%;
 }
 
 .profile {
-  background-color: red;
   height: 70px;
   border-radius: 50%;
   margin-left: 118.2px;
@@ -36,7 +36,7 @@ body {
   font-weight: 500;
   font-style: normal;
   font-size: 19.8px;
-  margin-left: 70.4px;
+  text-align: center;
   margin-top: 24.4px;
 }
 
@@ -46,7 +46,7 @@ body {
   font-weight: 200;
   font-style: normal;
   font-size: 15.4px;
-  margin-left: 81.6px;
+  text-align: center;
   margin-top: -9px;
 }
 
@@ -56,7 +56,7 @@ body {
   font-weight: 100;
   font-style: normal;
   font-size: 15px;
-  margin-left: 78px;
+  text-align: center;
   margin-top: 23px;
 }
 
@@ -69,7 +69,8 @@ body {
 #Github,
 #LinkedIn,
 #Twitter,
-#Instagram {
+#Instagram,
+#Portfolio {
   min-width: 230px;
   height: 48px;
   margin-left: 40px;
@@ -80,19 +81,12 @@ body {
 #Github:hover,
 #LinkedIn:hover,
 #Twitter:hover,
-#Instagram:hover {
+#Instagram:hover,
+#Portfolio:hover {
   background-color: #b9f50b;
 }
 
 /*Giving width to 0 for anchor tag resolving the link clickable area problem*/
 a {
   width: 0;
-}
-
-@media screen and (max-width: 768px) {
-  #name,
-  #location,
-  #details {
-    margin-left: 1rem; /* Smaller margin for mobile */
-  }
 }
